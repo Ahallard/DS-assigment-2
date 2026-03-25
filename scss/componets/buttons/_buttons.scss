@@ -1,0 +1,172 @@
+@use '../../foundations/' as *;
+
+.button-lg{
+    width:224px;
+    height: 74px;
+    margin: $spacing-md;
+    font-size: $text-md-1;
+    background-color: $primary-200;
+    color: $dark-text-color;
+    border:0px;
+    cursor: pointer;
+}
+
+.button-lg-highlight{
+    width:224px;
+    height: 74px;
+    margin: $spacing-md;
+    font-size: $text-md-1;
+    background-color: $primary-200;
+    color: $dark-text-color;
+    border-width: 3px;
+    border-color: $secondary-200;
+    cursor: pointer;
+}
+
+.button-lg-disabled{
+    width:224px;
+    height: 74px;
+    margin: $spacing-md;
+    font-size: $text-md-1;
+    background-color: $primary-400;
+    color: $dark-text-color;
+    border:0px;
+    cursor: not-allowed;
+}
+
+.button-md{
+    width:194px;
+    height: 64px;
+    margin: $spacing-md;
+    font-size: $text-md-2;
+    background-color: $primary-200;
+    color: $dark-text-color;
+    border:0px;
+    cursor: pointer;
+}
+
+.button-md-highlight{
+    width:194px;
+    height: 64px;
+    margin: $spacing-md;
+    font-size: $text-md-2;
+    background-color: $primary-200;
+    color: $dark-text-color;
+    border-width: 3px;
+    border-color: $secondary-200;
+    cursor: pointer;
+}
+
+.button-md-disabled{
+    width:194px;
+    height: 64px;
+    margin: $spacing-md;
+    font-size: $text-md-2;
+    background-color: $primary-400;
+    color: $dark-text-color;
+    border:0px;
+    cursor: not-allowed;
+}
+
+.button-sm{
+    width:162px;
+    height: 54px;
+    margin: $spacing-md;
+    font-size: $text-md-3;
+    background-color: $primary-200;
+    color: $dark-text-color;
+    border: 0px;
+    cursor: pointer;
+}
+
+.button-sm-highlight{
+    width:162px;
+    height: 54px;
+    margin: $spacing-md;
+    font-size: $text-md-3;
+    background-color: $primary-200;
+    color: $dark-text-color;
+    border-width: 3px;
+    border-color: $secondary-200;
+    cursor: pointer;
+}
+
+.button-sm-disabled{
+    width:162px;
+    height: 54px;
+    margin: $spacing-md;
+    font-size: $text-md-3;
+    background-color: $primary-400;
+    color: $dark-text-color;
+    border:0px;
+    cursor: not-allowed;
+}
+
+.del-button-lg{
+    width:224px;
+    height: 74px;
+    margin: $spacing-md;
+    font-size: $text-md-1;
+    background-color: $warning-color;
+    color: $dark-text-color;
+    border:0px;
+    cursor: pointer;
+}
+
+.del-button-lg-highlight{
+    width:224px;
+    height: 74px;
+    margin: $spacing-md;
+    font-size: $text-md-1;
+    background-color: $warning-color;
+    color: $dark-text-color;
+    border-width:3px;
+    border-color: $primary-300;
+    cursor: pointer;
+}
+
+.del-button-md{
+    width:194px;
+    height: 64px;
+    margin: $spacing-md;
+    font-size: $text-md-2;
+    background-color: $warning-color;
+    color: $dark-text-color;
+    border:0px;
+    cursor: pointer;
+}
+
+.del-button-md-highlight{
+    width:194px;
+    height: 64px;
+    margin: $spacing-md;
+    font-size: $text-md-2;
+    background-color: $warning-color;
+    color: $dark-text-color;
+    border-width:3px;
+    border-color: $primary-300;
+    cursor: pointer;
+}
+
+.del-button-sm{
+    width:162px;
+    height: 54px;
+    margin: $spacing-md;
+    font-size: $text-md-3;
+    background-color: $warning-color;
+    color: $dark-text-color;
+    border:0px;
+    cursor: pointer;
+}
+
+.del-button-sm-highlight{
+    width:162px;
+    height: 54px;
+    margin: $spacing-md;
+    font-size: $text-md-3;
+    background-color: $warning-color;
+    color: $dark-text-color;
+    border-width:3px;
+    border-color: $primary-300;
+    cursor: pointer;
+}

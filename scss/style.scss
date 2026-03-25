@@ -1,0 +1,267 @@
+@use 'foundations/index' as *; 
+@use 'componets/buttons/buttons';
+
+
+@mixin swatch-default{
+    width: 100px;
+    height: 100px;
+    margin: $spacing-lg;
+}
+
+
+body{
+    background-color:rgb(223, 219, 219);
+}
+
+.heading-1{
+    font-family: $font-family;
+    font-size: $text-lg-1;
+    color: $dark-text-color; 
+}
+
+.heading-2{
+    font-family: $font-family;
+    font-size: $text-lg-2;
+    color: $dark-text-color;
+}
+
+.heading-3{
+    font-family: $font-family;
+    font-size: $text-lg-3;
+    color: $dark-text-color;
+}
+
+.body-1{
+    font-family: $font-family;
+    font-size:$text-md-1; 
+    color: $dark-text-color;
+}
+
+.body-2{
+    font-family: $font-family;
+    font-size:$text-md-2;
+    color: $dark-text-color;
+}
+
+
+.body-3{
+    font-family: $font-family;
+    font-size:$text-md-3;
+    color: $dark-text-color;
+}
+
+.bold-1{
+    font-family: $font-family;
+    font-size:$text-md-1;
+    font-weight:$text-bold;
+    color: $dark-text-color;
+}
+
+.bold-2{
+    font-family: $font-family;
+    font-size:$text-md-2;
+    font-weight:$text-bold;
+    color: $dark-text-color;
+}
+
+.bold-3{
+    font-family: $font-family;
+    font-size:$text-md-3;
+    font-weight:$text-bold;
+    color: $dark-text-color;
+}
+
+.link-1{
+    color: $link-color;
+    font-family: $font-family;
+    font-size:$text-md-1;
+    font-style: $text-italic;
+    text-decoration: $text-underline;
+}
+
+.link-2{
+    color: $link-color;
+    font-family: $font-family;
+    font-size:$text-md-2;
+    font-style: $text-italic;
+    text-decoration: $text-underline;
+}
+
+.link-3{
+    color: $link-color;
+    font-family: $font-family;
+    font-size:$text-md-3;
+    font-style: $text-italic;
+    text-decoration: $text-underline;
+}
+
+.swatches-1{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    .primary-100{
+        background-color: $primary-100;
+        @include swatch-default;
+    }
+
+    .primary-200{
+        background-color: $primary-200;
+        @include swatch-default;
+    }
+
+    .primary-300{
+        background-color: $primary-300;
+        @include swatch-default;
+    }
+
+    .primary-400{
+        background-color: $primary-400;
+        @include swatch-default;
+    }
+
+    .primary-500{
+        background-color: $primary-500;
+        @include swatch-default;
+    }
+
+    .primary-600{
+        background-color: $primary-600;
+        @include swatch-default;
+    }
+}
+.swatches-2{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    .secondary-100{
+        background-color: $secondary-100;
+        @include swatch-default;
+    }
+
+    .secondary-200{
+        background-color: $secondary-200;
+        @include swatch-default;
+    }
+
+    .secondary-300{
+        background-color: $secondary-300;
+        @include swatch-default;
+    }
+
+    .secondary-400{
+        background-color: $secondary-400;
+        @include swatch-default;
+    }
+
+    .secondary-500{
+        background-color: $secondary-500;
+        @include swatch-default;
+    }
+
+    .secondary-600{
+        background-color: $secondary-600;
+        @include swatch-default;
+    }
+}
+.swatches-3{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    .neutral-100{
+        background-color: $neutral-100;
+        @include swatch-default;
+    }
+
+    .neutral-200{
+        background-color: $neutral-200;
+        @include swatch-default;
+    }
+
+    .neutral-300{
+        background-color: $neutral-300;
+        @include swatch-default;
+    }
+
+    .neutral-400{
+        background-color: $neutral-400;
+        @include swatch-default;
+    }
+
+    .neutral-500{
+        background-color: $neutral-500;
+        @include swatch-default;
+    }
+
+    .neutral-600{
+        background-color: $neutral-600;
+        @include swatch-default;
+    }
+}
+.swatches-4{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    .warning-colour{ 
+        background-color: $warning-color;
+        @include swatch-default;
+    }
+
+    .link-colour{ 
+        background-color: $link-color;
+        @include swatch-default;
+    }
+
+    .dark-text-colour{
+        background-color: $dark-text-color;
+        @include swatch-default;
+    }
+
+    .light-text-colour{
+        background-color: $light-text-color;
+        @include swatch-default;
+    }
+}
+.spacing-esm-eg{
+    background-color: $neutral-100;
+    width: $spacing-esm;
+    height: $spacing-esm;
+}
+
+.spacing-sm-eg{
+    background-color: $neutral-100;
+    width: $spacing-sm;
+    height: $spacing-sm;
+}
+
+.spacing-md-eg{
+    background-color: $neutral-100;
+    width: $spacing-md;
+    height: $spacing-md;
+}
+
+.spacing-lg-eg{
+    background-color: $neutral-100;
+    width: $spacing-lg;
+    height: $spacing-lg;
+}
+
+.spacing-elg-eg{
+    background-color: $neutral-100;
+    width: $spacing-elg;
+    height: $spacing-elg;
+}
+
+.typography-example{
+    padding-left: $spacing-md;
+}
+.spacing-example{
+    padding-left: $spacing-md;
+}
+.colour-example{
+    padding-left: $spacing-md;
+}
+.buttons-example{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

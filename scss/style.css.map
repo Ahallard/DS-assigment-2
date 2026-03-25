@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["style.scss","foundations/_typography.scss","foundations/_colours.scss"],"names":[],"mappings":"AAQA;EACI;EACA,WCVO;;;ADaX;EACI,aCLS;EDMT,WCdO;;;ADiBX;EACI,aCVS;EDWT,WClBO;;;ADqBX;EACI,aCfS;EDgBT,WCtBO;;;ADyBX;EACI,aCpBS;EDqBT,WC1BO;;;AD6BX;EACI,aCzBS;ED0BT,WC9BO;;;ADmCP;EACI,kBEzCK;EFIT;EACA","file":"style.css"}
