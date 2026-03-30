@@ -5,6 +5,7 @@
     height:298px;
     background-color: $warning-color;
     color:$light-text-color;
+    text-align: center;
 }
 
 .Success-message{
@@ -12,6 +13,7 @@
     height:298px;
     background-color: $secondary-100;
     color:$dark-text-color;
+    text-align: center;
 }
 
 .loading-message{
@@ -19,4 +21,5 @@
     height:298px;
     background-color: $primary-200;
     color:$dark-text-color;
+    text-align: center;
 }
