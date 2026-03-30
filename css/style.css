@@ -169,6 +169,27 @@
   cursor: pointer;
 }
 
+.warning-message {
+  width: 494px;
+  height: 298px;
+  background-color: #FF0505;
+  color: #FFFFFF;
+}
+
+.Success-message {
+  width: 494px;
+  height: 298px;
+  background-color: #05FF22;
+  color: #000000;
+}
+
+.loading-message {
+  width: 494px;
+  height: 298px;
+  background-color: #E503E9;
+  color: #000000;
+}
+
 body {
   background-color: rgb(223, 219, 219);
 }
