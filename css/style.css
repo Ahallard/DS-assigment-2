@@ -175,6 +175,9 @@
   background-color: #FF0505;
   color: #FFFFFF;
   text-align: center;
+  margin: 16px;
+  padding: 32px;
+  border-radius: 44;
 }
 
 .Success-message {
@@ -183,6 +186,9 @@
   background-color: #05FF22;
   color: #000000;
   text-align: center;
+  margin: 16px;
+  padding: 32px;
+  border-radius: 44;
 }
 
 .loading-message {
@@ -191,6 +197,9 @@
   background-color: #E503E9;
   color: #000000;
   text-align: center;
+  margin: 16px;
+  padding: 32px;
+  border-radius: 44;
 }
 
 body {

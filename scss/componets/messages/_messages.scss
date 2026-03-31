@@ -6,6 +6,9 @@
     background-color: $warning-color;
     color:$light-text-color;
     text-align: center;
+    margin:$spacing-md;
+    padding:$spacing-lg;
+    border-radius: 44;
 }
 
 .Success-message{
@@ -14,6 +17,9 @@
     background-color: $secondary-100;
     color:$dark-text-color;
     text-align: center;
+    margin:$spacing-md;
+    padding:$spacing-lg;
+    border-radius: 44;
 }
 
 .loading-message{
@@ -22,4 +28,7 @@
     background-color: $primary-200;
     color:$dark-text-color;
     text-align: center;
+    margin:$spacing-md;
+    padding:$spacing-lg;
+    border-radius: 44;
 }
