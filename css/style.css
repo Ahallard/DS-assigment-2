@@ -177,7 +177,7 @@
   text-align: center;
   margin: 16px;
   padding: 32px;
-  border-radius: 44;
+  border-radius: 44px;
 }
 
 .Success-message {
@@ -188,7 +188,7 @@
   text-align: center;
   margin: 16px;
   padding: 32px;
-  border-radius: 44;
+  border-radius: 44px;
 }
 
 .loading-message {
@@ -199,7 +199,7 @@
   text-align: center;
   margin: 16px;
   padding: 32px;
-  border-radius: 44;
+  border-radius: 44px;
 }
 
 body {
