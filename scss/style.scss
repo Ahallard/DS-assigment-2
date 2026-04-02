@@ -1,6 +1,7 @@
 @use 'foundations/index' as *; 
 @use 'componets/buttons/buttons';
 @use 'componets/messages/messages';
+@use 'componets/inputs/inputs';
 
 
 @mixin swatch-default{

@@ -202,6 +202,13 @@
   border-radius: 44px;
 }
 
+.input {
+  background-color: #7E7E7E;
+  color: #6E6E6E;
+  width: 449px;
+  height: 55px;
+}
+
 body {
   background-color: rgb(223, 219, 219);
 }
