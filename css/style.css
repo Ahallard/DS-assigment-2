@@ -204,9 +204,11 @@
 
 .input {
   background-color: #7E7E7E;
-  color: #6E6E6E;
+  color: #000000;
   width: 449px;
   height: 55px;
+  font-family: arial;
+  font-size: 22px;
 }
 
 body {
