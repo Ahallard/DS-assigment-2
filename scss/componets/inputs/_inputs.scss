@@ -5,6 +5,15 @@
     color: $dark-text-color;
     width:449px;
     height:55px;
-     font-family: $font-family;
+    font-family: $font-family;
     font-size:$text-md-1; 
+}
+.textarea{
+    background-color:$neutral-100;
+    color: $dark-text-color;
+    width:449px;
+    height:330px;
+    font-family: $font-family;
+    font-size:$text-md-1; 
+
 }

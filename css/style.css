@@ -211,6 +211,15 @@
   font-size: 22px;
 }
 
+.textarea {
+  background-color: #7E7E7E;
+  color: #000000;
+  width: 449px;
+  height: 330px;
+  font-family: arial;
+  font-size: 22px;
+}
+
 body {
   background-color: rgb(223, 219, 219);
 }
