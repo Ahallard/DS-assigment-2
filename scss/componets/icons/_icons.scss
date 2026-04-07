@@ -1,1 +1,10 @@
 @use '../../foundations/' as *;
+
+.icon{
+    display:block;
+    width:24px;
+    height: 24px;
+        .icon-profile{
+            background-image: url("")
+        }
+}

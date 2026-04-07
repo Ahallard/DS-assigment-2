@@ -220,6 +220,15 @@
   font-size: 22px;
 }
 
+.icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+.icon .icon-profile {
+  background-image: url("");
+}
+
 body {
   background-color: rgb(223, 219, 219);
 }
