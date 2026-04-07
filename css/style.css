@@ -1,7 +1,7 @@
 .button-lg {
   width: 224px;
   height: 74px;
-  margin: 16px;
+  margin: 8px;
   font-size: 22px;
   background-color: #E503E9;
   color: #000000;
@@ -12,7 +12,7 @@
 .button-lg-highlight {
   width: 224px;
   height: 74px;
-  margin: 16px;
+  margin: 8px;
   font-size: 22px;
   background-color: #E503E9;
   color: #000000;
@@ -24,7 +24,7 @@
 .button-lg-disabled {
   width: 224px;
   height: 74px;
-  margin: 16px;
+  margin: 8px;
   font-size: 22px;
   background-color: #B103B4;
   color: #000000;
@@ -35,7 +35,7 @@
 .button-md {
   width: 194px;
   height: 64px;
-  margin: 16px;
+  margin: 8px;
   font-size: 20px;
   background-color: #E503E9;
   color: #000000;
@@ -46,7 +46,7 @@
 .button-md-highlight {
   width: 194px;
   height: 64px;
-  margin: 16px;
+  margin: 8px;
   font-size: 20px;
   background-color: #E503E9;
   color: #000000;
@@ -58,7 +58,7 @@
 .button-md-disabled {
   width: 194px;
   height: 64px;
-  margin: 16px;
+  margin: 8px;
   font-size: 20px;
   background-color: #B103B4;
   color: #000000;
@@ -69,7 +69,7 @@
 .button-sm {
   width: 162px;
   height: 54px;
-  margin: 16px;
+  margin: 8px;
   font-size: 18px;
   background-color: #E503E9;
   color: #000000;
@@ -80,7 +80,7 @@
 .button-sm-highlight {
   width: 162px;
   height: 54px;
-  margin: 16px;
+  margin: 8px;
   font-size: 18px;
   background-color: #E503E9;
   color: #000000;
@@ -92,7 +92,7 @@
 .button-sm-disabled {
   width: 162px;
   height: 54px;
-  margin: 16px;
+  margin: 8px;
   font-size: 18px;
   background-color: #B103B4;
   color: #000000;
@@ -103,7 +103,7 @@
 .del-button-lg {
   width: 224px;
   height: 74px;
-  margin: 16px;
+  margin: 8px;
   font-size: 22px;
   background-color: #FF0505;
   color: #000000;
@@ -114,7 +114,7 @@
 .del-button-lg-highlight {
   width: 224px;
   height: 74px;
-  margin: 16px;
+  margin: 8px;
   font-size: 22px;
   background-color: #FF0505;
   color: #000000;
@@ -126,7 +126,7 @@
 .del-button-md {
   width: 194px;
   height: 64px;
-  margin: 16px;
+  margin: 8px;
   font-size: 20px;
   background-color: #FF0505;
   color: #000000;
@@ -137,7 +137,7 @@
 .del-button-md-highlight {
   width: 194px;
   height: 64px;
-  margin: 16px;
+  margin: 8px;
   font-size: 20px;
   background-color: #FF0505;
   color: #000000;
@@ -149,7 +149,7 @@
 .del-button-sm {
   width: 162px;
   height: 54px;
-  margin: 16px;
+  margin: 8px;
   font-size: 18px;
   background-color: #FF0505;
   color: #000000;
@@ -160,7 +160,7 @@
 .del-button-sm-highlight {
   width: 162px;
   height: 54px;
-  margin: 16px;
+  margin: 8px;
   font-size: 18px;
   background-color: #FF0505;
   color: #000000;
