@@ -170,3 +170,77 @@
     border-color: $primary-300;
     cursor: pointer;
 }
+
+
+
+.del-ac-button-lg{
+    width:224px;
+    height: 74px;
+    margin: $spacing-sm;
+    font-size: $text-md-1;
+    background-color:$accessible-warning-colour;
+    color: $dark-text-color;
+    border:0px;
+    cursor: pointer;
+}
+
+.del-ac-button-lg-highlight{
+    width:224px;
+    height: 74px;
+    margin: $spacing-sm;
+    font-size: $text-md-1;
+    background-color: $accessible-warning-colour;
+    color: $dark-text-color;
+    border-width:3px;
+    border-color: $primary-300;
+    cursor: pointer;
+}
+
+.del-ac-button-md{
+    width:194px;
+    height: 64px;
+    margin: $spacing-sm;
+    font-size: $text-md-2;
+    background-color: $accessible-warning-colour;
+    color: $dark-text-color;
+    border:0px;
+    cursor: pointer;
+}
+
+.del-ac-button-md-highlight{
+    width:194px;
+    height: 64px;
+    margin: $spacing-sm;
+    font-size: $text-md-2;
+    background-color: $accessible-warning-colour;
+    color: $dark-text-color;
+    border-width:3px;
+    border-color: $primary-300;
+    cursor: pointer;
+}
+
+.del-ac-button-sm{
+    width:162px;
+    height: 54px;
+    margin: $spacing-sm;
+    font-size: $text-md-3;
+    background-color: $accessible-warning-colour;
+    color: $dark-text-color;
+    border:0px;
+    cursor: pointer;
+}
+
+.del-ac-button-sm-highlight{
+    width:162px;
+    height: 54px;
+    margin: $spacing-sm;
+    font-size: $text-md-3;
+    background-color: $accessible-warning-colour;
+    color: $dark-text-color;
+    border-width:3px;
+    border-color: $primary-300;
+    cursor: pointer;
+}
+
+
+

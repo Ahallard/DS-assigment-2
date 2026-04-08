@@ -169,10 +169,90 @@
   cursor: pointer;
 }
 
+.del-ac-button-lg {
+  width: 224px;
+  height: 74px;
+  margin: 8px;
+  font-size: 22px;
+  background-color: #052FFF;
+  color: #000000;
+  border: 0px;
+  cursor: pointer;
+}
+
+.del-ac-button-lg-highlight {
+  width: 224px;
+  height: 74px;
+  margin: 8px;
+  font-size: 22px;
+  background-color: #052FFF;
+  color: #000000;
+  border-width: 3px;
+  border-color: #CB07CE;
+  cursor: pointer;
+}
+
+.del-ac-button-md {
+  width: 194px;
+  height: 64px;
+  margin: 8px;
+  font-size: 20px;
+  background-color: #052FFF;
+  color: #000000;
+  border: 0px;
+  cursor: pointer;
+}
+
+.del-ac-button-md-highlight {
+  width: 194px;
+  height: 64px;
+  margin: 8px;
+  font-size: 20px;
+  background-color: #052FFF;
+  color: #000000;
+  border-width: 3px;
+  border-color: #CB07CE;
+  cursor: pointer;
+}
+
+.del-ac-button-sm {
+  width: 162px;
+  height: 54px;
+  margin: 8px;
+  font-size: 18px;
+  background-color: #052FFF;
+  color: #000000;
+  border: 0px;
+  cursor: pointer;
+}
+
+.del-ac-button-sm-highlight {
+  width: 162px;
+  height: 54px;
+  margin: 8px;
+  font-size: 18px;
+  background-color: #052FFF;
+  color: #000000;
+  border-width: 3px;
+  border-color: #CB07CE;
+  cursor: pointer;
+}
+
 .warning-message {
   width: 494px;
   height: 298px;
   background-color: #FF0505;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 16px;
+  padding: 32px;
+  border-radius: 44px;
+}
+
+.warning-ac-message {
+  width: 494px;
+  height: 298px;
+  background-color: #052FFF;
   color: #FFFFFF;
   text-align: center;
   margin: 16px;

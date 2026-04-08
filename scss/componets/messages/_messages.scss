@@ -11,6 +11,18 @@
     border-radius: 44px;
 }
 
+.warning-ac-message{
+    width:494px;
+    height:298px;
+    background-color:$accessible-warning-colour;
+    color:$light-text-color;
+    text-align: center;
+    margin:$spacing-md;
+    padding:$spacing-lg;
+    border-radius: 44px;
+}
+
+
 .Success-message{
     width:494px;
     height:298px;
