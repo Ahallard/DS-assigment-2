@@ -300,13 +300,14 @@
   font-size: 22px;
 }
 
-.icon {
+.icon-profile {
   display: block;
   width: 24px;
   height: 24px;
-}
-.icon .icon-profile {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='27' height='31' viewBox='0 0 27 31' fill='none'%3E%3Cpath d='M13.5 17.4788C20.9558 17.4788 27 23.4587 27 30.8352C27 30.8903 26.9987 30.9453 26.998 31.0002H0.00195312C0.00128044 30.9453 2.52921e-07 30.8903 0 30.8352C0 23.4587 6.04416 17.4788 13.5 17.4788Z' fill='%23E503E9'/%3E%3Cellipse cx='13.5' cy='7.75' rx='7.64458' ry='7.75' fill='%23E503E9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 body {
