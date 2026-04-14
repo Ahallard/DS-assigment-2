@@ -287,7 +287,7 @@ button:focus {
 }
 
 .input {
-  background-color: #7E7E7E;
+  background-color: #cfcece;
   color: #FFFFFF;
   width: 449px;
   height: 55px;
@@ -297,7 +297,7 @@ button:focus {
 }
 
 .textarea {
-  background-color: #7E7E7E;
+  background-color: #cfcece;
   color: #FFFFFF;
   width: 449px;
   height: 330px;
@@ -728,13 +728,13 @@ body {
   text-align: center;
 }
 .swatches-3 .neutral-100 {
-  background-color: #7E7E7E;
+  background-color: #cfcece;
   width: 100px;
   height: 100px;
   margin: 32px;
 }
 .swatches-3 .neutral-200 {
-  background-color: #6E6E6E;
+  background-color: #919191;
   width: 100px;
   height: 100px;
   margin: 32px;
@@ -795,31 +795,31 @@ body {
 }
 
 .spacing-esm-eg {
-  background-color: #7E7E7E;
+  background-color: #cfcece;
   width: 4px;
   height: 4px;
 }
 
 .spacing-sm-eg {
-  background-color: #7E7E7E;
+  background-color: #cfcece;
   width: 8px;
   height: 8px;
 }
 
 .spacing-md-eg {
-  background-color: #7E7E7E;
+  background-color: #cfcece;
   width: 16px;
   height: 16px;
 }
 
 .spacing-lg-eg {
-  background-color: #7E7E7E;
+  background-color: #cfcece;
   width: 32px;
   height: 32px;
 }
 
 .spacing-elg-eg {
-  background-color: #7E7E7E;
+  background-color: #cfcece;
   width: 64;
   height: 64;
 }
