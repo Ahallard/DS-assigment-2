@@ -3,7 +3,7 @@
 @use 'componets/messages/messages';
 @use 'componets/inputs/inputs';
 @use 'componets/icons/icons';
-
+@use 'componets/selectors/selectors';
 
 @mixin swatch-default{
     width: 100px;
