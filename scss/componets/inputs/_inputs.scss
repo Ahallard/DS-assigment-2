@@ -2,17 +2,19 @@
 
 .input{
     background-color:$neutral-100;
-    color: $dark-text-color;
+    color: $light-text-color;
     width:449px;
     height:55px;
+    padding:$spacing-sm;
     font-family: $font-family;
     font-size:$text-md-1; 
 }
 .textarea{
     background-color:$neutral-100;
-    color: $dark-text-color;
+    color: $light-text-color;
     width:449px;
     height:330px;
+    padding:$spacing-sm;
     font-family: $font-family;
     font-size:$text-md-1; 
 

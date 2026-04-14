@@ -1,12 +1,16 @@
 @use '../../foundations/' as *;
 
+button:focus{
+    outline-color: $secondary-100;
+}
+
 .button-lg{
     width:224px;
     height: 74px;
     margin: $spacing-sm;
     font-size: $text-md-1;
     background-color: $primary-200;
-    color: $dark-text-color;
+    color: $light-text-color;
     border:0px;
     cursor: pointer;
 }
@@ -17,7 +21,7 @@
     margin: $spacing-sm;
     font-size: $text-md-1;
     background-color: $primary-200;
-    color: $dark-text-color;
+    color: $light-text-color;
     border-width: 3px;
     border-color: $secondary-200;
     cursor: pointer;
@@ -29,7 +33,7 @@
     margin: $spacing-sm;
     font-size: $text-md-1;
     background-color: $primary-400;
-    color: $dark-text-color;
+    color: $light-text-color;
     border:0px;
     cursor: not-allowed;
 }
@@ -40,7 +44,7 @@
     margin: $spacing-sm;
     font-size: $text-md-2;
     background-color: $primary-200;
-    color: $dark-text-color;
+    color: $light-text-color;
     border:0px;
     cursor: pointer;
 }
@@ -51,7 +55,7 @@
     margin: $spacing-sm;
     font-size: $text-md-2;
     background-color: $primary-200;
-    color: $dark-text-color;
+    color: $light-text-color;
     border-width: 3px;
     border-color: $secondary-200;
     cursor: pointer;
@@ -63,7 +67,7 @@
     margin: $spacing-sm;
     font-size: $text-md-2;
     background-color: $primary-400;
-    color: $dark-text-color;
+    color: $light-text-color;
     border:0px;
     cursor: not-allowed;
 }
@@ -74,7 +78,7 @@
     margin: $spacing-sm;
     font-size: $text-md-3;
     background-color: $primary-200;
-    color: $dark-text-color;
+    color: $light-text-color;
     border: 0px;
     cursor: pointer;
 }
@@ -85,7 +89,7 @@
     margin: $spacing-sm;
     font-size: $text-md-3;
     background-color: $primary-200;
-    color: $dark-text-color;
+    color: $light-text-color;
     border-width: 3px;
     border-color: $secondary-200;
     cursor: pointer;
@@ -97,7 +101,7 @@
     margin: $spacing-sm;
     font-size: $text-md-3;
     background-color: $primary-400;
-    color: $dark-text-color;
+    color: $light-text-color;
     border:0px;
     cursor: not-allowed;
 }

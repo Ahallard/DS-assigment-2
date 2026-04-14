@@ -1,10 +1,14 @@
+button:focus {
+  outline-color: #05FF22;
+}
+
 .button-lg {
   width: 224px;
   height: 74px;
   margin: 8px;
   font-size: 22px;
   background-color: #E503E9;
-  color: #000000;
+  color: #FFFFFF;
   border: 0px;
   cursor: pointer;
 }
@@ -15,7 +19,7 @@
   margin: 8px;
   font-size: 22px;
   background-color: #E503E9;
-  color: #000000;
+  color: #FFFFFF;
   border-width: 3px;
   border-color: #03E41E;
   cursor: pointer;
@@ -27,7 +31,7 @@
   margin: 8px;
   font-size: 22px;
   background-color: #B103B4;
-  color: #000000;
+  color: #FFFFFF;
   border: 0px;
   cursor: not-allowed;
 }
@@ -38,7 +42,7 @@
   margin: 8px;
   font-size: 20px;
   background-color: #E503E9;
-  color: #000000;
+  color: #FFFFFF;
   border: 0px;
   cursor: pointer;
 }
@@ -49,7 +53,7 @@
   margin: 8px;
   font-size: 20px;
   background-color: #E503E9;
-  color: #000000;
+  color: #FFFFFF;
   border-width: 3px;
   border-color: #03E41E;
   cursor: pointer;
@@ -61,7 +65,7 @@
   margin: 8px;
   font-size: 20px;
   background-color: #B103B4;
-  color: #000000;
+  color: #FFFFFF;
   border: 0px;
   cursor: not-allowed;
 }
@@ -72,7 +76,7 @@
   margin: 8px;
   font-size: 18px;
   background-color: #E503E9;
-  color: #000000;
+  color: #FFFFFF;
   border: 0px;
   cursor: pointer;
 }
@@ -83,7 +87,7 @@
   margin: 8px;
   font-size: 18px;
   background-color: #E503E9;
-  color: #000000;
+  color: #FFFFFF;
   border-width: 3px;
   border-color: #03E41E;
   cursor: pointer;
@@ -95,7 +99,7 @@
   margin: 8px;
   font-size: 18px;
   background-color: #B103B4;
-  color: #000000;
+  color: #FFFFFF;
   border: 0px;
   cursor: not-allowed;
 }
@@ -275,7 +279,7 @@
   width: 494px;
   height: 298px;
   background-color: #E503E9;
-  color: #000000;
+  color: #FFFFFF;
   text-align: center;
   margin: 16px;
   padding: 32px;
@@ -284,18 +288,20 @@
 
 .input {
   background-color: #7E7E7E;
-  color: #000000;
+  color: #FFFFFF;
   width: 449px;
   height: 55px;
+  padding: 8px;
   font-family: arial;
   font-size: 22px;
 }
 
 .textarea {
   background-color: #7E7E7E;
-  color: #000000;
+  color: #FFFFFF;
   width: 449px;
   height: 330px;
+  padding: 8px;
   font-family: arial;
   font-size: 22px;
 }
@@ -609,7 +615,7 @@ body {
 }
 
 .link-1 {
-  color: #02EEFF;
+  color: #06bac7;
   font-family: arial;
   font-size: 22px;
   font-style: italic;
@@ -617,7 +623,7 @@ body {
 }
 
 .link-2 {
-  color: #02EEFF;
+  color: #06bac7;
   font-family: arial;
   font-size: 20px;
   font-style: italic;
@@ -625,7 +631,7 @@ body {
 }
 
 .link-3 {
-  color: #02EEFF;
+  color: #06bac7;
   font-family: arial;
   font-size: 18px;
   font-style: italic;
@@ -770,7 +776,7 @@ body {
   margin: 32px;
 }
 .swatches-4 .link-colour {
-  background-color: #02EEFF;
+  background-color: #06bac7;
   width: 100px;
   height: 100px;
   margin: 32px;
