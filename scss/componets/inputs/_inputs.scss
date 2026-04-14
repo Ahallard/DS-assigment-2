@@ -1,7 +1,7 @@
 @use '../../foundations/' as *;
 
 .input{
-    background-color:$neutral-100;
+    background-color:$neutral-300;
     color: $light-text-color;
     width:449px;
     height:55px;
@@ -10,7 +10,7 @@
     font-size:$text-md-1; 
 }
 .textarea{
-    background-color:$neutral-100;
+    background-color:$neutral-300;
     color: $light-text-color;
     width:449px;
     height:330px;

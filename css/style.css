@@ -287,7 +287,7 @@ button:focus {
 }
 
 .input {
-  background-color: #cfcece;
+  background-color: #555555;
   color: #FFFFFF;
   width: 449px;
   height: 55px;
@@ -297,7 +297,7 @@ button:focus {
 }
 
 .textarea {
-  background-color: #cfcece;
+  background-color: #555555;
   color: #FFFFFF;
   width: 449px;
   height: 330px;
