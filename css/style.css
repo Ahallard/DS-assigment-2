@@ -578,8 +578,8 @@ button:focus {
   position: absolute;
   top: 0;
   left: 0;
-  height: 25px;
-  width: 25px;
+  height: 43px;
+  width: 43px;
   background-color: #540156;
 }
 .concheck input:checked ~ .checkmark {
@@ -596,15 +596,16 @@ button:focus {
 .concheck .checkmark:after {
   left: 9px;
   top: 5px;
-  width: 5px;
-  height: 10px;
-  border: #06bac7;
+  width: 10px;
+  height: 20px;
+  border-color: #06bac7;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
 }
 
 .concheck:hover input ~ .checkmark {
-  background-color: #ccc;
+  border-width: 8px;
+  border-color: #00630C;
 }
 
 .radio {
