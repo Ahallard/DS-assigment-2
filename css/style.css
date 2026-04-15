@@ -556,15 +556,55 @@ button:focus {
   background-position: center;
 }
 
-.checkbox {
-  height: 45px;
-  width: 45px;
-  background-color: #540156;
-  border-width: 8px;
-  border-color: #00630C;
+.concheck {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
-.checkbox input:checked {
-  background-color: #FB04FF;
+.concheck input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.concheck .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+.concheck input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.concheck .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.concheck input:checked ~ .checkmark:after {
+  display: block;
+}
+.concheck .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.concheck:hover input ~ .checkmark {
+  background-color: #ccc;
 }
 
 .radio {
@@ -589,40 +629,35 @@ button:focus {
   width: 0;
   height: 0;
 }
-
-.slider {
+.switch .slider {
   position: absolute;
   cursor: pointer;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #540156;
+  background-color: #FFFFFF;
   transition: 0.4s;
   border-radius: 34px;
 }
-
-.slider:before {
+.switch .slider:before {
   position: absolute;
   content: "";
   height: 26px;
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: #540156;
+  background-color: #FFFFFF;
   transition: 0.4s;
   border-radius: 34px;
 }
-
-input:checked + .slider {
+.switch input:checked + .slider {
   background-color: #FB04FF;
 }
-
-input:focus + .slider {
+.switch input:focus + .slider {
   box-shadow: 0 0 1px #FB04FF;
 }
-
-input:checked + .slider:before {
+.switch input:checked + .slider:before {
   transform: translateX(26px);
 }
 
