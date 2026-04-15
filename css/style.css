@@ -594,7 +594,7 @@ button:focus {
   display: block;
 }
 .concheck .checkmark:after {
-  left: 9px;
+  left: 16px;
   top: 5px;
   width: 10px;
   height: 20px;
