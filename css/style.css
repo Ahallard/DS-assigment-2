@@ -557,6 +557,32 @@ button:focus {
   background-position: center;
 }
 
+.checkbox {
+  height: 45px;
+  width: 45px;
+  background-color: #540156;
+  border-width: 8px;
+  border-color: #00630C;
+}
+.checkbox input:checked {
+  background-color: #FB04FF;
+}
+
+.radio {
+  height: 36px;
+  width: 36px;
+  background-color: #cfcece;
+  border-width: 8px;
+  border-color: #00630C;
+}
+.radio Input:checked {
+  background-color: #FB04FF;
+}
+
+a {
+  padding: 16px;
+}
+
 body {
   background-color: rgb(223, 219, 219);
 }

@@ -1,1 +1,23 @@
 @use '../../foundations/' as *;
+
+.checkbox{
+    height:45px;
+    width:45px;
+    background-color: $primary-600;
+    border-width:8px;
+    border-color:$secondary-600;
+    input:checked{
+        background-color:$primary-100;
+    }
+}
+
+.radio{
+    height:36px;
+    width:36px;
+    background-color: $neutral-100;
+    border-width:8px;
+    border-color:$secondary-600;
+    Input:checked{
+        background-color:$primary-100;
+    }
+}
