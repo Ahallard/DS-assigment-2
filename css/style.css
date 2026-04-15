@@ -598,7 +598,7 @@ button:focus {
   top: 5px;
   width: 10px;
   height: 20px;
-  border-color: #06bac7;
+  border: solid white;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
 }
