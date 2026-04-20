@@ -608,7 +608,7 @@ button:focus {
   border-color: #00630C;
 }
 
-.radio {
+.Radio {
   display: block;
   position: relative;
   padding-left: 35px;
@@ -619,14 +619,14 @@ button:focus {
   -moz-user-select: none;
   user-select: none;
 }
-.radio input {
+.Radio input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
   height: 0;
   width: 0;
 }
-.radio .radioMark {
+.Radio .radioMark {
   position: absolute;
   top: 0;
   left: 0;
@@ -635,18 +635,18 @@ button:focus {
   background-color: #eee;
   border-radius: 50%;
 }
-.radio .input:checked ~ .radioMark {
+.Radio .input:checked ~ .radioMark {
   background-color: #2196F3;
 }
-.radio .radioMark:after {
+.Radio .radioMark:after {
   content: "";
   position: absolute;
   display: none;
 }
-.radio .input:checked ~ .radioMark:after {
+.Radio .input:checked ~ .radioMark:after {
   display: block;
 }
-.radio .radioMark:after {
+.Radio .radioMark:after {
   top: 9px;
   left: 9px;
   width: 8px;
