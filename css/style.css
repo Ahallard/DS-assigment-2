@@ -619,6 +619,7 @@ button:focus {
   -moz-user-select: none;
   user-select: none;
 }
+
 .Radio input {
   position: absolute;
   opacity: 0;
@@ -626,7 +627,8 @@ button:focus {
   height: 0;
   width: 0;
 }
-.Radio .radioMark {
+
+.radioMark {
   position: absolute;
   top: 0;
   left: 0;
@@ -635,17 +637,25 @@ button:focus {
   background-color: #eee;
   border-radius: 50%;
 }
-.Radio .input:checked ~ .radioMark {
+
+.Radio:hover input ~ .radioMark {
+  background-color: #ccc;
+}
+
+.Radio input:checked ~ .radioMark {
   background-color: #2196F3;
 }
-.Radio .radioMark:after {
+
+.radioMark:after {
   content: "";
   position: absolute;
   display: none;
 }
-.Radio .input:checked ~ .radioMark:after {
+
+.Radio input:checked ~ .radioMark:after {
   display: block;
 }
+
 .Radio .radioMark:after {
   top: 9px;
   left: 9px;
@@ -653,10 +663,6 @@ button:focus {
   height: 8px;
   border-radius: 50%;
   background: white;
-}
-
-.radio:hover input ~ .radioMark {
-  background-color: #ccc;
 }
 
 .switch {
