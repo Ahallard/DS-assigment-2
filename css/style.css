@@ -594,12 +594,12 @@ button:focus {
   display: block;
 }
 .concheck .checkmark:after {
-  left: 16px;
-  top: 5px;
+  left: 30px;
+  bottom: 10px;
   width: 15px;
-  height: 30px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
+  height: 60px;
+  border: solid cyan;
+  border-width: 0 6px 6px 0;
   transform: rotate(45deg);
 }
 
@@ -619,7 +619,6 @@ button:focus {
   -moz-user-select: none;
   user-select: none;
 }
-
 .Radio input {
   position: absolute;
   opacity: 0;
@@ -627,42 +626,35 @@ button:focus {
   height: 0;
   width: 0;
 }
-
-.radioMark {
+.Radio .radioMark {
   position: absolute;
   top: 0;
   left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
+  height: 36px;
+  width: 36px;
+  background-color: #919191;
   border-radius: 50%;
 }
-
-.Radio:hover input ~ .radioMark {
-  background-color: #ccc;
-}
-
 .Radio input:checked ~ .radioMark {
   background-color: #2196F3;
 }
-
-.radioMark:after {
+.Radio input:checked ~ .radioMark:after {
+  display: block;
+}
+.Radio .radioMark:after {
   content: "";
   position: absolute;
   display: none;
 }
-
-.Radio input:checked ~ .radioMark:after {
-  display: block;
+.Radio .radioMark:after {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #FB04FF;
 }
 
-.Radio .radioMark:after {
-  top: 9px;
-  left: 9px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: white;
+.Radio:hover input ~ .radioMark {
+  background-color: #ccc;
 }
 
 .switch {
@@ -690,10 +682,8 @@ button:focus {
 .switch .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
+  height: 33px;
+  width: 33px;
   background-color: #FFFFFF;
   transition: 0.4s;
   border-radius: 34px;

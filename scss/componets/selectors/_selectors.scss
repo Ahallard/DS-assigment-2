@@ -38,12 +38,12 @@
         display: block;
     }
     .checkmark:after {
-        left: 16px;
-        top: 5px;
+        left: 30px;
+        bottom: 10px;
         width: 15px;
-        height: 30px;
-        border: solid white;
-        border-width: 0 3px 3px 0;
+        height: 60px;
+        border: solid cyan;
+        border-width: 0 6px 6px 0;
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
@@ -57,62 +57,56 @@
 
 
 .Radio {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.Radio input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-.radioMark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
-  border-radius: 50%;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+    .radioMark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 36px;
+        width: 36px;
+        background-color: $neutral-200;
+        border-radius: 50%;
+    }
+    input:checked ~ .radioMark {
+        background-color: #2196F3;
+    }
+    input:checked ~ .radioMark:after {
+        display: block;
+    }
+    .radioMark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+    .radioMark:after {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: $primary-100;
+    }
 }
 
 .Radio:hover input ~ .radioMark {
   background-color: #ccc;
 }
 
-.Radio input:checked ~ .radioMark {
-  background-color: #2196F3;
-}
 
-.radioMark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-.Radio input:checked ~ .radioMark:after {
-  display: block;
-}
-
-.Radio .radioMark:after {
-  top: 9px;
-  left: 9px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: white;
-}
 
 .switch{
     position: relative;
@@ -139,10 +133,8 @@
     .slider:before {
         position: absolute;
         content: "";
-        height: 26px;
-        width: 26px;
-        left: 4px;
-        bottom: 4px;
+        height: 33px;
+        width: 33px;
         background-color: $light-text-color;
         -webkit-transition: .4s;
         transition: .4s;
